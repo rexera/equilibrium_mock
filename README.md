@@ -5,6 +5,8 @@ Please refer to the original work for a dissection on algorithm.
 
 I used **MMLU Benchmark** on `gpt-2` in a **next-token prediction** fashion. (Note that this is not deterministic)
 
+To test the algorithm, simply run `run.py`. (`initial.py` and `update.py` are its modules)
+
 Ideally, two models will finally decide on one of the given options after 5000 iterations.
 
 Terminal will resemble:
